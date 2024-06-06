@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "version": "0.0.1",
+    "title": "Mod test for Factorio",
+    "author": "Appalings03",
+    "factorio_version": "1.1.107",
+    "contact": "@Appalings03",
+    "homepage": "https://github.com/Appalings03/Mod_for_Factorio.git",
+    "description": "Mod test for Factorio",
+    "dependencie": [
+        "mod-name-a",
+        "? mod-name-b",
+        "!mod-name-c > 0.2.1"
+    ]
+}
