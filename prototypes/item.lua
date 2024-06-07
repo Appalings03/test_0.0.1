@@ -25,8 +25,28 @@ local tita_plate = {
     stack_size = 100,
 }
 
+local tita_furnace = {
+    type = "item",
+    name = "titafurnace",
+    icon = "__test__/graphics/furnace/furnace.png",
+    icon_size = 32,
+    subgroup = "smelting-machine", -- see other subgroup in factorio wiki Data.raw#item-subgroup
+    stack_size = 50,
+}
+
+local tita_assembler = {
+    type = "item",
+    name = "titaassembler",
+    icon = "__test__/graphics/assembler/assembler.png",
+    icon_size = 32,
+    subgroup = "production-machine", -- see other subgroup in factorio wiki Data.raw#item-subgroup
+    stack_size = 50,
+}
+
 data:extend({
     coin,
     tita_ore,
     tita_plate,
+    tita_furnace,
+    tita_assembler
 })
