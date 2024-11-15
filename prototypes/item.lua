@@ -43,6 +43,15 @@ local tita_assembler = {
     stack_size = 50,
 }
 
+local ____ = {
+    type = "item",
+    name = "",
+    icon = "__test__/graphics/____",
+    icon_size = 32,
+    subgroup = "",
+    stack_size = 50,
+}
+
 data:extend({
     coin,
     tita_ore,
