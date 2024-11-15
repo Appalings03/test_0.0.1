@@ -7,9 +7,5 @@
     "contact": "@Appalings03",
     "homepage": "https://github.com/Appalings03/test_0.0.1.git",
     "description": "Mod test for Factorio",
-    "dependencie": [
-        "mod-name-a",
-        "? mod-name-b",
-        "!mod-name-c > 0.2.1"
-    ]
+    "dependencie": "None"
 }
